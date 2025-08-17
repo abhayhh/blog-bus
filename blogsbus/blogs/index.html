@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NGROK Verification -->
+    <meta name="ngrok-verification" content="2zbLGGxguv7Ukc1AcxviBDi2Xrq_3MjHLtTNDxcx1fkcW7Kr5">
+    
+    <title>Wanderlust Wheels - A Travel Blog</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Wanderlust Wheels</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Bus Journeys</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle-btn" title="Toggle dark mode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Full-width Hero Slider -->
+        <section class="hero-slider">
+            <div class="slider-wrapper">
+                <!-- Slide 1: Italy (Your Requested Image) -->
+                <div class="slide active">
+                    <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?q=80&w=1920&auto=format&fit=crop');"></div>
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="category-tag">FEATURED STORY</span>
+                            <h1>The Scenic Route: A Coastal Bus Journey Through Italy</h1>
+                            <p>Discovering hidden gems and breathtaking views from the window of a humble bus.</p>
+                            <a href="article-template.html" class="cta-button">Read The Story</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Himalayas -->
+                <div class="slide">
+                     <div class="slide-bg" style="background-image: url('https://plus.unsplash.com/premium_photo-1692299547964-7c38e8ff94cf?q=80&w=1176&auto=format&fit=crop');"></div>
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="category-tag">BUS JOURNEYS</span>
+                            <h1>Delhi to Manali: A Himalayan Adventure by Bus</h1>
+                            <p>Winding roads, stunning valleys, and everything you need to know for this iconic bus trip.</p>
+                            <a href="delhi-to-manali-bus-journey.html" class="cta-button">Read The Story</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Rajasthan -->
+                <div class="slide">
+                     <div class="slide-bg" style="background-image: url('https://plus.unsplash.com/premium_photo-1661963285656-f91dff9f6566?q=80&w=1896&auto=format&fit=crop');"></div>
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="category-tag">DESTINATIONS</span>
+                            <h1>Bus Hopping in Rajasthan: Jaipur to Jodhpur</h1>
+                            <p>Discover the magic of the desert state by hopping between its most vibrant cities on a budget.</p>
+                            <a href="delhi-to-rajasthan-bus-journey.html" class="cta-button">Read The Story</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls -->
+            <button class="slider-control prev" title="Previous Slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="slider-control next" title="Next Slide">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            
+            <div class="slider-dots"></div>
+        </section>
+
+        <!-- Main Content Area with Sidebar on the Right -->
+        <div class="container main-content-area">
+            <div class="main-layout">
+
+                <!-- Main Articles Grid (Now on the left) -->
+                <div class="articles-main">
+                    <div class="post-grid">
+                        <article class="post-card"><a href="delhi-to-manali-bus-journey.html"><img src="https://cdn.getyourguide.com/image/format=auto,fit=contain,gravity=auto,quality=60,width=1440,height=650,dpr=1/tour_img/6481b3d94fc03.jpeg" alt="Test Image 1"><div class="card-content"><span class="card-category-tag">Bus Journeys</span><h3>Delhi to Manali: A Himalayan Adventure by Bus</h3><p class="excerpt">Winding roads, stunning valleys, and everything you need to know for this iconic bus trip.</p></div></a></article>
+                        <article class="post-card"><a href="delhi-to-lucknow-bus-journey.html"><img src="https://images.unsplash.com/photo-1628477160043-3f6b3ad54f61?q=80&w=1440,height=650&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Test Image 2"><div class="card-content"><span class="card-category-tag">With Loved Ones</span><h3>Delhi to Lucknow: A Weekend of History and Food</h3><p class="excerpt">Explore the city of Nawabs with your family. A guide to the best sights and culinary delights.</p></div></a></article>
+                        <article class="post-card"><a href="delhi-to-rajasthan-bus-journey.html"><img src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1170&auto=format&fit=crop" alt="Pink building in Jaipur"><div class="card-content"><span class="card-category-tag">Destinations</span><h3>Bus Hopping in Rajasthan: Jaipur to Jodhpur</h3><p class="excerpt">Discover the magic of the desert state by hopping between its most vibrant cities on a budget.</p></div></a></article>
+                        <article class="post-card"><a href="delhi-to-goa-bus-journey.html"><img src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?q=80&w=1170&auto=format&fit=crop" alt="Goa beach"><div class="card-content"><span class="card-category-tag">Destinations</span><h3>A Budget Guide to Goa's Best Beaches</h3><p class="excerpt">Sun, sand, and sea without breaking the bank. Here's how to enjoy Goa on a shoestring.</p></div></a></article>
+                        <article class="post-card"><a href="delhi-to-munnar-bus-journey.html"><img src="https://images.unsplash.com/photo-1624720969464-5a4a4a747ca3?q=80&w=1074&auto=format&fit=crop" alt="Tea plantations in Munnar"><div class="card-content"><span class="card-category-tag">Travel Tips</span><h3>Bus Trip to Munnar: Navigating the Hills</h3><p class="excerpt">Essential tips for a safe and scenic bus journey through the winding roads of Kerala's tea country.</p></div></a></article>
+                        <article class="post-card"><a href="delhi-to-banglore-bus-journey.html"><img src="https://imgs.search.brave.com/ehD1IsBvs4mDiaHA5NKepTdUf8M-fxPcb3gepLuijy8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/MzIwMzA5NC9waG90/by9hbi1hZXJpYWwt/dmlldy1vZi12aWRo/YW4tc291ZGhhLWFu/ZC1oaWdoLWNvdXJ0/LWJ1aWxkaW5nLWlu/LWJhbmdhbG9yZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/NzNfRUo5b1R6UV82/bkZNN2dDa2Jqb1E3/bXdONEpHM0M3X1Z4/X25QRFU1WT0" alt="Bangalore cityscape"><div class="card-content"><span class="card-category-tag">City Guides</span><h3>Exploring Bangalore by Public Transport</h3><p class="excerpt">How to use the city's bus network to explore everything from tech parks to botanical gardens.</p></div></a></article>
+                    </div>
+                </div>
+                
+                <!-- Sidebar (Now on the right) -->
+                <aside class="sidebar">
+                    <!-- Recent Posts Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <ul class="sidebar-list">
+                            <li>
+                                <a href="delhi-to-munnar-bus-journey.html">from Delhi To Manali: More Than Just a Bus Ride</a>
+                                <span class="post-date">July 21, 2025</span>
+                            </li>
+                            <li>
+                                <a href="delhi-to-kasol-bus-journey.html">Discover the Best Things to Do in Kasol</a>
+                                <span class="post-date">July 18, 2025</span>
+                            </li>
+                            <li>
+                                <a href="gurugram-to-shimla-bus-journey.html">From Gurgaon to Shimla: Reimagined</a>
+                                <span class="post-date">July 9, 2025</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title styled">Categories</h3>
+                        <ul class="sidebar-list icon-list">
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 9.5A1.5 1.5 0 0 1 2.5 8h3A1.5 1.5 0 0 1 7 9.5v3A1.5 1.5 0 0 1 5.5 14h-3A1.5 1.5 0 0 1 1 12.5v-3zM2.5 9a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm.5 7.5A1.5 1.5 0 0 0 9 11v3a1.5 1.5 0 0 0 1.5 1.5h3A1.5 1.5 0 0 0 15 14v-3a1.5 1.5 0 0 0-1.5-1.5h-3zM11 11.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3z"/></svg>Bus Hire</a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 9.5A1.5 1.5 0 0 1 2.5 8h3A1.5 1.5 0 0 1 7 9.5v3A1.5 1.5 0 0 1 5.5 14h-3A1.5 1.5 0 0 1 1 12.5v-3zM2.5 9a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm.5 7.5A1.5 1.5 0 0 0 9 11v3a1.5 1.5 0 0 0 1.5 1.5h3A1.5 1.5 0 0 0 15 14v-3a1.5 1.5 0 0 0-1.5-1.5h-3zM11 11.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3z"/></svg>Destinations</a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 9.5A1.5 1.5 0 0 1 2.5 8h3A1.5 1.5 0 0 1 7 9.5v3A1.5 1.5 0 0 1 5.5 14h-3A1.5 1.5 0 0 1 1 12.5v-3zM2.5 9a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm.5 7.5A1.5 1.5 0 0 0 9 11v3a1.5 1.5 0 0 0 1.5 1.5h3A1.5 1.5 0 0 0 15 14v-3a1.5 1.5 0 0 0-1.5-1.5h-3zM11 11.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3z"/></svg>Travel Tips</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Filter by City Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title styled">Filter by City</h3>
+                        <ul class="sidebar-list">
+                            <li><a href="delhi-to-goa-bus-journey.html">Goa</a></li>
+                            <li><a href="delhi-to-manali-bus-journey.html">Manali</a></li>
+                            <li><a href="delhi-to-banglore-bus-journey.html">Bangalore</a></li>
+                            <li><a href="delhi-to-lucknow-bus-journey.html">Lucknow</a></li>
+                            <li><a href="delhi-to-kasol-bus-journey.html">Delhi</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 Wanderlust Wheels. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { body.classList.add(savedTheme); }
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark-mode' : '');
+        });
+    </script>
+    
+    <!-- Hero Slider Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sliderWrapper = document.querySelector('.slider-wrapper');
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.querySelector('.slider-control.prev');
+            const nextBtn = document.querySelector('.slider-control.next');
+            const dotsContainer = document.querySelector('.slider-dots');
+
+            if (!sliderWrapper) return; // Exit if slider doesn't exist on the page
+
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+            let autoPlayInterval;
+
+            // Create dots
+            for (let i = 0; i < totalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.dataset.slide = i;
+                dotsContainer.appendChild(dot);
+            }
+            const dots = document.querySelectorAll('.dot');
+
+            function goToSlide(slideIndex) {
+                // Update active class on slides
+                slides.forEach(slide => slide.classList.remove('active'));
+                slides[slideIndex].classList.add('active');
+                
+                // Move the slider wrapper
+                sliderWrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+                // Update active class on dots
+                dots.forEach(dot => dot.classList.remove('active'));
+                dots[slideIndex].classList.add('active');
+
+                currentSlide = slideIndex;
+            }
+            
+            function nextSlide() {
+                const newIndex = (currentSlide + 1) % totalSlides;
+                goToSlide(newIndex);
+            }
+
+            function prevSlide() {
+                const newIndex = (currentSlide - 1 + totalSlides) % totalSlides;
+                goToSlide(newIndex);
+            }
+
+            // Event Listeners
+            nextBtn.addEventListener('click', () => {
+                nextSlide();
+                resetAutoPlay();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                prevSlide();
+                resetAutoPlay();
+            });
+            
+            dotsContainer.addEventListener('click', (e) => {
+                if(e.target.matches('.dot')) {
+                    const slideToGo = parseInt(e.target.dataset.slide);
+                    goToSlide(slideToGo);
+                    resetAutoPlay();
+                }
+            });
+            
+            // Autoplay functionality
+            function startAutoPlay() {
+                autoPlayInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+            }
+
+            function resetAutoPlay() {
+                clearInterval(autoPlayInterval);
+                startAutoPlay();
+            }
+
+            // Initialize
+            goToSlide(0);
+            startAutoPlay();
+        });
+    </script>
+
+</body>
+</html>
